@@ -22,3 +22,33 @@ th {
     color: #fff;
     background-color: #4285f4;
 }
+
+.column-1 {
+    text-align: left;
+}
+
+.column-2 {
+    text-align: right;
+}
+
+/* 
+:hover is the "pseudo-class"
+that refers to an element when
+a mouse pointer is overlapping 
+*/
+/* tr:hover {
+    background-color: #f9f9f9;
+} */
+
+/* This is the descendant selector. 
+    It refers to an element anywhere inside
+    another element.
+*/
+tr:hover td {
+    /* color: white; */
+    /* font-size: 2em; multiply by the current font size */
+}
+
+.odd-row, tr:hover {
+    background-color: #f9f9f9;
+}
