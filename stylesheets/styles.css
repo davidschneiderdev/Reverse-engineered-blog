@@ -1,0 +1,24 @@
+html {
+    /* background-image: url(../images/silhouette-of-mountains-1323550.jpg); */
+}
+
+* {
+    /* color: rgb(0, 0, 0); */
+    /* color: #000000; */
+    /* color: #ffffff; */
+    /* color: #000; */
+}
+
+p {
+    color: #5D5D5D;
+}
+
+table {
+    width: 100%;
+    /* Take up as much horizontal space as you */
+}
+
+th {
+    color: #fff;
+    background-color: #4285f4;
+}
