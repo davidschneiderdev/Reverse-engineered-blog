@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
     <link rel="stylesheet" href="stylesheets/styles.css">
+
 </head>
 <body>
     <h1>Hello World</h1>
@@ -17,38 +20,40 @@
     <table>
         <thead>
             <tr>
-                <th>Day</th>
-                <th>Time</th>
+                <th class="column-1">Day</th>
+                <th class="column-2">Time</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Monday</td>
+                <!-- Tags can have multiple classes.
+                    Just seperate them by spaces. -->
+                <td class="column-2">7:30AM-10:00PM</td>
+            </tr>
+            <tr class="odd-row">
+                <td>Tuesday</td>
+                <td class="column-2">7:30AM-10:00PM</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Wednesday</td>
+                <td class="column-2">7:30AM-10:00PM</td>
+            </tr>
+            <tr class="odd-row">
+                <td>Thursday</td>
+                <td class="column-2">7:30AM-10:00PM</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Friday</td>
+                <td class="column-2">7:30AM-10:00PM</td>
+            </tr>
+            <tr class="odd-row">
+                <td>Saturday</td>
+                <td class="column-2">7:30AM-10:00PM</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
+                <td>Sunday</td>
+                <td class="column-2">8:30AM-10:00PM</td>
             </tr>
         </tbody>
     </table>
